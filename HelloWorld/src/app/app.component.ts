@@ -15,4 +15,8 @@ export class AppComponent {
   ngOnInit(): void {
     this.title = 'Hello from BridgeLabz';
   }
+
+  openBridgeLabz(): void {
+    window.open('https://www.bridgelabz.com', '_blank'); // Opens site in a new tab
+  }
 }
